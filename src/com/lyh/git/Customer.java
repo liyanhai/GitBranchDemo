@@ -16,6 +16,13 @@ public class Customer {
 
     private String cusName;
 
+    private String cusId;
 
+    public String getCusId() {
+        return cusId;
+    }
 
+    public void setCusId(String cusId) {
+        this.cusId = cusId;
+    }
 }
